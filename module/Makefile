@@ -34,7 +34,7 @@ all:
 install: all rules
 	${MKDIR} ${MODULEDIR}
 	${CP} -v tty0tty.ko ${MODULEDIR}
-	depmod
+	depmod -b /lib/modules/5.4.0-152-generic
 	modprobe tty0tty
 
 rules:
