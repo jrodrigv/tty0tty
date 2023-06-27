@@ -1,7 +1,7 @@
 # Comment/uncomment the following line to disable/enable debugging
 DEBUG = n
 
-KVERSION:= $(shell uname -r)
+KVERSION:= 5.4.0-152-generic
 
 MKDIR= mkdir -p
 CP= cp
